@@ -1,0 +1,67 @@
+div.hero-text {
+    animation: fadeIn ease 2.0s;
+    -webkit-animation: fadeIn ease 2.0s;
+    -moz-animation: fadeIn ease 2.0s;
+    -o-animation: fadeIn ease 2.0s;
+    -ms-animation: fadeIn ease 2.0s;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(62, 52, 52, 0.6)), url("../../images/background1.jpg");
+    background-size:cover;
+    padding:5%;
+    text-align: center;
+  }
+
+.hero-text {
+    border: none;
+    display: inline-block;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    font-size:18px;
+    transition: all .2s ease-in-out;
+}
+
+h1 {
+    font-size:60px;
+    color:whitesmoke;
+}
+p {
+    font-size:20px;
+    color:whitesmoke;
+}
+
+.index-img {
+    max-width:45%;
+    border-radius:2em;
+    border:solid whitesmoke 1px;
+}
+
+.home-link {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin-top:5%;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.home-link:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+
+@media only screen and (min-width:1000px) {
+    .index-img {
+        max-height:500px;
+    }
+}
+

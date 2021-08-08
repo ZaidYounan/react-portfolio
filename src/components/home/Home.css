@@ -1,0 +1,11 @@
+.home {
+    height:100%;
+    background:#2C394B;
+}
+
+.home-image {
+    border:none;
+    position:absolute;
+    bottom:0;
+    right:0;
+}

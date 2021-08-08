@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <div className='headers'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              Zaid Younan
+              zaid younan
             </Link>
               <a href='mailto:zaid.younan@gmail.com' className='email-link'>
               <i class="fas fa-envelope "/>
