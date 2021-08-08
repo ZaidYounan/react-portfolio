@@ -12,7 +12,7 @@ function Projects() {
         <div className="projects-container">
             <div className="projects-intro">
                 <h1 className="intro-text">Previous Work</h1> 
-                <img src={image} className="intro-image"/>
+                <p className="intro-text">Gaining practical experience with full-stack frameworks and technologies...</p>
             </div>
             <div className="project">
                 <img src={fightclub} className="project-image"/> 

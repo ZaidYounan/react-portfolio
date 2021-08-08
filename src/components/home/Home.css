@@ -39,9 +39,6 @@ p > a {
     color:white;
 }
 
-
-
-
 @media screen and (max-width:500px) {
     .home {
         flex-direction:unset;
