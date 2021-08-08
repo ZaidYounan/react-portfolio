@@ -35,6 +35,9 @@ img.home-image {
     margin:2%;
 }
 
+p > a {
+    color:white;
+}
 
 
 
@@ -60,4 +63,5 @@ img.home-image {
         width:72%;
         overflow:scroll;
     }
+
 }
