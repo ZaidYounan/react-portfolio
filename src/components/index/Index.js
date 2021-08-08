@@ -8,7 +8,7 @@ function Index() {
         <div className="hero-text">
             <img src={photo} className="index-img"/>
             <h1>I'm Zaid</h1>
-            <p>And I'm a Web Developer</p>
+            <h3>And I'm A Web Developer</h3>
             <Link to='/home' className="home-link">
                 Home
             </Link>

@@ -4,13 +4,14 @@ div.hero-text {
     -moz-animation: fadeIn ease 2.0s;
     -o-animation: fadeIn ease 2.0s;
     -ms-animation: fadeIn ease 2.0s;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     margin: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(62, 52, 52, 0.6)), url("../../images/background1.jpg");
     background-size:cover;
     padding:5%;
     text-align: center;
+    overflow:scroll;
   }
 
 .hero-text {
@@ -27,13 +28,26 @@ h1 {
     font-size:60px;
     color:whitesmoke;
 }
+
+h3 {
+    font-size:40px;
+    font-weight:normal;
+    color:whitesmoke;
+}
+
+h5 {
+    font-size:25px;
+    color:whitesmoke;
+    font-weight:lighter;
+}
+
 p {
     font-size:20px;
     color:whitesmoke;
 }
 
 .index-img {
-    max-width:45%;
+    max-height:60%;
     border-radius:2em;
     border:solid whitesmoke 1px;
 }
@@ -59,9 +73,5 @@ p {
 }
 
 
-@media only screen and (min-width:1000px) {
-    .index-img {
-        max-height:500px;
-    }
-}
+
 
