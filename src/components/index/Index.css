@@ -9,7 +9,7 @@ div.hero-text {
     margin: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(62, 52, 52, 0.6)), url("../../images/background1.jpg");
     background-size:cover;
-    padding:5%;
+    padding:3%;
     text-align: center;
     overflow:scroll;
   }
@@ -50,14 +50,14 @@ p {
     max-height:60%;
     border-radius:2em;
     border:solid whitesmoke 1px;
-    margin-bottom:5%;
+    margin-bottom:3%;
 }
 
 .home-link {
     display:inline-block;
     padding:0.35em 1.2em;
     border:0.1em solid #FFFFFF;
-    margin-top:5%;
+    margin-top:3%;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
