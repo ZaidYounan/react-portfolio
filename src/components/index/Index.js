@@ -10,7 +10,7 @@ function Index() {
             <h3>Zaid Younan</h3>
             <h1>Web Developer</h1>
             <Link to='/home' className="home-link">
-                Home
+                Enter
             </Link>
         </div>
     )

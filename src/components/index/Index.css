@@ -56,9 +56,9 @@ p {
 .home-link {
     display:inline-block;
     padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
+    border:0.15em solid #FFFFFF;
     margin-top:3%;
-    border-radius:0.12em;
+    border-radius:0.30em;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
@@ -71,6 +71,7 @@ p {
 .home-link:hover {
     color:#000000;
     background-color:#FFFFFF;
+    padding: 0.35em 50px 0.35em 50px;
 }
 
 
