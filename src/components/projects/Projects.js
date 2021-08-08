@@ -11,8 +11,10 @@ function Projects() {
     return (
         <div className="projects-container">
             <div className="projects-intro">
-                <h1 className="intro-text">Previous Work</h1> 
-                <p className="intro-text">Gaining practical experience with full-stack frameworks and technologies...</p>
+                <div className="intro-text">
+                    <h1>Previous Work</h1> 
+                    <p>Gaining practical experience with full-stack frameworks and technologies...</p>
+                </div>
             </div>
             <div className="project">
                 <img src={fightclub} className="project-image"/> 

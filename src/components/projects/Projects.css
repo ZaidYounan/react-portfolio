@@ -33,15 +33,16 @@
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1100px) {
     .projects-intro {   
         display:flex;
         flex-direction:column;
         align-items:flex-start;
         min-height:40vh;
     }
+
     .intro-text {
-        width:50%;
+        width:40%;
     }
 
 }
@@ -50,13 +51,21 @@
     .projects-intro {   
         display:flex;
         flex-direction:column;
-        align-items:center;
-        text-align:center;
+        align-items:flex-end;
+        text-align:right;
         min-height:50vh;
     }
 
-    h1.intro-text {   
+
+
+    .intro-text {   
+        display:flex;
+        flex-direction:column;
+        align-items:flex-end;
         margin:0;
+        width:50%;
+        margin-right:10%;
     }
+
 }
 
