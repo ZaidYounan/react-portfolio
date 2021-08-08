@@ -9,7 +9,7 @@ function Home() {
             <div className="home-text">
                 <h3>Hi, I'm Zaid.</h3>
                 <h1>React.js Developer.</h1>
-                <p>In 2021, unsatisfied with my career in Pharmacy and Customer Service, I made the leap and pursued my dream of learning to code.</p>
+                <p>In <strong>2021</strong>, unsatisfied with my career in Pharmacy and Customer Service, I made the leap and pursued my dream of learning to code.</p>
                 <p>The pandemic was a tragedy, but it did give me the time to really knuckle down and hone my skills.</p>
                 <p>With time, my interest in coding really blossomed into a passion. I spend much of my free time tinkering, constantly learning. </p>
                 <p>Today, I have a solid base of experience with ReactJS, Ruby on Rails and related technologies.</p>
