@@ -12,6 +12,10 @@ div.hero-text {
     padding:3%;
     text-align: center;
     overflow:scroll;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
   }
 
 .hero-text {

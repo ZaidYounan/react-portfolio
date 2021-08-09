@@ -3,7 +3,7 @@
     background:black;
     display:flex;
     flex-direction:column;
-    overflow-y:scroll;
+    overflow:scroll;
     background-image: url('../../images/linkedin-photo-render.png');
     background-repeat:no-repeat;
     background-position:top right;
@@ -43,6 +43,11 @@
     max-height:100%;
     margin-left:5%;
     z-index:99;
+}
+
+.extra {
+    min-height:10%;
+    background:black;
 }
 
 

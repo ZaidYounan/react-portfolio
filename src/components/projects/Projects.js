@@ -49,6 +49,7 @@ function Projects() {
                     <p>Terminal App built in Ruby - Create custom ASCII swords based on user input</p>                
                 </div>
             </div>
+            <div className="extra">&nbsp;</div>
         </div>
     )
 }
