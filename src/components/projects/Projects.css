@@ -20,6 +20,7 @@
     display:flex;
     flex-direction:row;
     align-items:center;
+    justify-content:space-between;
     background-image: linear-gradient(
         0deg
         ,#000,#172229),linear-gradient(
@@ -27,9 +28,29 @@
         ,#000,#000);
 }
 
+.project-text {
+    margin-right:5%;
+    width:40%;
+}
+
 .project-image {
-    max-width:40%;
+    max-width:100%;
     margin:5%;
+}
+
+.project-link {
+    max-width:40%;
+    max-height:100%;
+    margin-left:5%;
+    z-index:99;
+}
+
+
+.project-image:hover {
+    transform: scale(1.7);
+    transition: .3s ease-in;
+    transform-origin: 0% 150%;
+    border:solid white 2px;
 }
 
 

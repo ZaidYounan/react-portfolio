@@ -42,6 +42,7 @@ img.home-image {
 
 p > a {
     color:#FF4C29;
+    text-decoration:none;
 }
 
 @media screen and (max-width:500px) {
