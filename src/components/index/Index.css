@@ -46,11 +46,20 @@ p {
     color:whitesmoke;
 }
 
+
 .index-img {
     max-height:60%;
     border-radius:2em;
     border:solid whitesmoke 1px;
     margin-bottom:3%;
+}
+
+@media screen and (max-width:1024px) {
+
+    .index-img {
+        max-width:50%;
+    }
+
 }
 
 .home-link {
@@ -73,7 +82,6 @@ p {
     background-color:#FFFFFF;
     padding: 0.35em 50px 0.35em 50px;
 }
-
 
 
 
