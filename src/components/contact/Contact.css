@@ -2,13 +2,78 @@
     height:100%;
     background:black;
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     justify-content:center;
     color:white;
+    flex-direction:column;
+    overflow:scroll;
+    background-image: url('../../images/linkedin-photo-render.png');
+    background-repeat:no-repeat;
+    background-position:bottom right;
+    background-size:40%;
 }
 
 .contact-form {
     display:flex;
     flex-direction:column;
     width: 50%;
+}
+
+.contact-text {
+    margin: 10% 1% 3% 6%;
+}
+
+h4 > a {
+    color: #FF4C29;
+    text-decoration:none;
+}
+
+h4 {
+    font-size:larger;
+
+}
+
+/* Fields */
+div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {
+    background-color: transparent; /* Remove background fill */
+    text-transform: uppercase; /* Make text all uppercase */
+    border-radius: 0; /* Remove corner curve */
+    border: 2px solid #fff; /* 2px white border */
+    color: #fff; /* White text */
+    height: 45px; /* Increase input height */
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+/* Button */
+div.wpforms-container-full .wpforms-form input[type=submit] {
+   text-transform: uppercase;
+   padding: 10px 60px;
+   color: white;
+   background: #444;
+   font-weight: normal;
+   margin:2%;
+}
+
+label {
+    padding:2%;
+}
+
+form > textarea {
+    min-height:300px;
+    margin-bottom:3%;
 }
