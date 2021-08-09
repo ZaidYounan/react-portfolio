@@ -21,7 +21,6 @@ function Contact() {
 
     return (
         <div className="wpforms-container-full contact">
-
             <div className="contact-div">
                 <div className="contact-text">
                     <h4>Want to get in touch? You can message me directly with the form below, or email me at <a href="mailto:zaid.younan@gmail.com">zaid.younan@gmail.com</a>.</h4>
