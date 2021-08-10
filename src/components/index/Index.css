@@ -70,6 +70,7 @@ p {
     display:inline-block;
     padding:0.35em 1.2em;
     border:0.15em solid #FFFFFF;
+    margin:0;
     margin-top:3%;
     border-radius:0.30em;
     box-sizing: border-box;
