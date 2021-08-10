@@ -61,7 +61,7 @@
 
 .extra {
     min-height:10%;
-    background:black;
+    background:transparent;
 }
 
 
@@ -75,6 +75,14 @@ div > a {
     color:#FF4C29;
     text-decoration:none;
     margin-right:5%;
+}
+
+.loading-text {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:larger;
 }
 
 
@@ -93,7 +101,7 @@ div > a {
         display:flex;
         flex-direction:column;
         align-items:flex-start;
-        min-height:66vh;
+        min-height:55vh;
     }
 
     .intro-text {
