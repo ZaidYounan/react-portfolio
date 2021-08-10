@@ -31,8 +31,7 @@
 .project-text {
     width:45%;
     display:flex;
-    justify-content:space-between;
-    flex-direction:column;
+    flex-direction:row;
     align-items:center;
 }
 
@@ -108,6 +107,14 @@ div > a {
         width:40%;
     }
 
+    .project-text {
+        flex-direction:column;
+    }   
+
+    .project-text > p {
+        width:90%;
+    }
+
 }
 
 @media screen and (max-width:450px) {
@@ -138,16 +145,21 @@ div > a {
     
     .project-text {
         display:flex;
+        flex-direction:column;
         justify-content:center;
         align-items:center;
         text-align:center;
         width:80%;
-        padding:5%;
+        padding: 3%;
         margin-top:5%;
     }
 
     .loading-text > h1 {
         font-size:45px;
+    }
+
+    .project-image {
+        margin-top:8%;
     }
 
     .project-image:hover {

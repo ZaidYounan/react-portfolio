@@ -57,7 +57,7 @@ function Projects() {
                         </a>
                         <div className="project-text">
                             <p>
-                                WeightLogger (24 Hour Hackathon) - First time using Ruby On Rails
+                                WeightLogger (24 Hour Hackathon) - First time using Ruby On Rails.
                             </p>
                             <a href="http://weightlogger-hackathon.herokuapp.com/" className="project-link-text">
                                 Learn More <i class="fas fa-chevron-right"></i>
@@ -70,7 +70,7 @@ function Projects() {
                         </a>
                         <div className="project-text">
                             <p>
-                                SwordCrafter - Terminal App built in Ruby: Create custom ASCII swords based on user input
+                                SwordCrafter - Terminal App built in Ruby: Create custom ASCII swords.
                             </p>          
                             <a href="https://github.com/ZaidYounan/Sword-crafting-app/" className="project-link-text">
                                 Learn More <i class="fas fa-chevron-right"></i>
