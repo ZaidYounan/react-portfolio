@@ -150,5 +150,9 @@ div > a {
         font-size:45px;
     }
 
+    .project-image:hover {
+        transform:translate(0%,35%) scale(1.7);
+    }
+
 }
 
