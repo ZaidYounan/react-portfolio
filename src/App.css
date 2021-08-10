@@ -7,16 +7,16 @@
 
 body, html {
   height:100%;
-
+  background-color:black;
 }
 
 #root {
   height:100vh;
-
+  background-color:black;
 }
 
 .App {
   height:100vh;
-
+  background-color:black;
 }
 
