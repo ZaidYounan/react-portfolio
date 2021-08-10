@@ -6,6 +6,9 @@
     background-image: url('../../images/linkedin-photo-render.png');
     background-repeat:no-repeat;
     background-position:bottom right;
+    position:relative;
+    z-index:9;
+    top:-20px;
 }
 
 h1 {
@@ -32,7 +35,7 @@ p {
 
 
 .home-text {
-    width:80%;
+    width:60%;
     margin:2%;
     z-index:6
 }
@@ -42,6 +45,12 @@ p > a {
     text-decoration:none;
 }
 
+.extra {
+    min-height:10%;
+    background:transparent;
+}
+
+
 @media screen and (max-width:500px) {
     .home {
         display:flex;
@@ -50,6 +59,7 @@ p > a {
         height:100vh;
         text-align:left;
         background-position:bottom left;
+        margin-top:5%;
     }
 
     .img.home-image {
@@ -60,7 +70,7 @@ p > a {
 
         max-height:100vh;
         padding-bottom:20px;
-        width:90%;
+        width:50%;
     }
 
 }
