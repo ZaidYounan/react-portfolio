@@ -78,10 +78,23 @@ div > a {
 
 .loading-text {
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
     color:white;
     font-size:larger;
+}
+
+.loading-text > h1 {
+    font-size:45px;
+    margin-left:5%;
+}
+
+@media (min-height:1366px) and (max-height:1366px) and (min-width:1024px) and (max-width:1024px) {
+
+    div.projects-intro {
+        min-height:30vh;
+    }
+
 }
 
 
@@ -94,6 +107,7 @@ div > a {
     }
 
 }
+
 
 @media screen and (max-width:1100px) {
     .projects-intro {   
