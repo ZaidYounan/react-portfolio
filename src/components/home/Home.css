@@ -56,15 +56,10 @@ p > a {
     .home {
         display:flex;
         justify-content:flex-start;
-        flex-direction:row;
         height:100vh;
         text-align:left;
         background-position:bottom left;
         margin-top:5%;
-    }
-
-    .img.home-image {
-        bottom:0;
     }
     
     .home-text {
