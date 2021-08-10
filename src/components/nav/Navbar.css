@@ -104,7 +104,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 90vh;
+      height: 100vh;
       position: absolute;
       top: 80px;
       left: -100%;
@@ -204,4 +204,17 @@
     .email-link {
         margin:0;
     }
+    .navbar {
+        height:100px;
+    }
   }
+
+@media screen and (max-width:360px) {
+    .navbar {
+        height:100px;
+    }
+
+    .ic {
+        display:none;
+    }
+}

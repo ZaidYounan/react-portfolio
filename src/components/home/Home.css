@@ -3,8 +3,9 @@
     background:black;
     overflow:scroll;
     display:flex;
-    flex-direction:row; 
-    justify-content:space-between;
+    background-image: url('../../images/linkedin-photo-render.png');
+    background-repeat:no-repeat;
+    background-position:bottom right;
 }
 
 h1 {
@@ -28,16 +29,12 @@ p {
     padding: 1% 0 1% 0;
 }
 
-img.home-image {
-    z-index:1;
-    display:flex;
-    justify-content:flex-end;
 
-}
 
 .home-text {
-    width:60%;
+    width:80%;
     margin:2%;
+    z-index:6
 }
 
 p > a {
@@ -47,24 +44,21 @@ p > a {
 
 @media screen and (max-width:500px) {
     .home {
-        flex-direction:unset;
+        display:flex;
+        justify-content:flex-end;
+        flex-direction:column;
         height:100vh;
     }
 
     .img.home-image {
-        position:relative;
-        float:right;
-        z-index:1;
         bottom:0;
     }
     
     .home-text {
-        position:absolute;
-        z-index:2;
+
         max-height:100vh;
         padding-bottom:20px;
-        width:72%;
-        overflow:scroll;
+        width:80%;
     }
 
 }

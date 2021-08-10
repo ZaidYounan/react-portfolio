@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css';
-import image from '../../images/linkedin-photo-render.png';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -18,7 +17,6 @@ function Home() {
                     <p>Have a role that might interest me? You can  <Link to="/contact">contact me here!</Link></p>
                 </div>
             </div>
-            <img src={image} className="home-image"/>
         </div>
     )
 }
