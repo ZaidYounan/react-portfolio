@@ -76,9 +76,9 @@ function Projects() {
                                 Learn More <i class="fas fa-chevron-right"></i>
                             </a>      
                         </div>
+                        <div className="extra">&nbsp;</div>
                     </div>
                     </div>) : (<div className="loading-text"><h1>Loading...</h1></div>)}
-            <div className="extra">&nbsp;</div>
         </div>
     )
 }
