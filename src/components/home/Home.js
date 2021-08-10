@@ -16,6 +16,7 @@ function Home() {
                     <p>I'm also quite interested in building API's, and I am handy with a SQL database.</p>
                     <p>Have a role that might interest me? You can  <Link to="/contact">contact me here!</Link></p>
                 </div>
+                <div className="extra">&nbsp;</div>
             </div>
         </div>
     )

@@ -45,9 +45,11 @@ p > a {
 @media screen and (max-width:500px) {
     .home {
         display:flex;
-        justify-content:flex-end;
-        flex-direction:column;
+        justify-content:flex-start;
+        flex-direction:row;
         height:100vh;
+        text-align:left;
+        background-position:bottom left;
     }
 
     .img.home-image {
@@ -58,7 +60,7 @@ p > a {
 
         max-height:100vh;
         padding-bottom:20px;
-        width:80%;
+        width:90%;
     }
 
 }
