@@ -1,1 +1,3 @@
-Coming soon!
+Deployed to:
+
+https://zaid-younan.com/
