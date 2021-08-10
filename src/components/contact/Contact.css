@@ -44,11 +44,11 @@ h4 {
 /* Fields */
 div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {
     background-color: transparent; /* Remove background fill */
-    text-transform: uppercase; /* Make text all uppercase */
     border-radius: 0; /* Remove corner curve */
     border: 2px solid #fff; /* 2px white border */
     color: #fff; /* White text */
     height: 45px; /* Increase input height */
+    padding:5px;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #fff;
@@ -93,4 +93,11 @@ form > textarea {
     .contact-form {
         width:50%;
     }
+}
+
+input:focus, textarea:focus {
+    outline: none !important;
+    border:2px solid crimson !important;
+    box-shadow: 0 0 10px crimson !important;
+
 }
