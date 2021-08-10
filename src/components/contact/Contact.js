@@ -23,7 +23,8 @@ function Contact() {
         <div className="wpforms-container-full contact">
             <div className="contact-div">
                 <div className="contact-text">
-                    <h4>Want to get in touch? You can message me directly with the form below, or email me at <a href="mailto:zaid.younan@gmail.com">zaid.younan@gmail.com</a>.</h4>
+                    <h1 className="contact-title">Want to get in touch?</h1>
+                    <h4>You can message me directly with the form below, or email me at <a href="mailto:zaid.younan@gmail.com">zaid.younan@gmail.com</a>.</h4>
                     <h4>Alternatively you can find me on <a href="https://github.com/ZaidYounan">Github <i class="fab fa-github"></i></a> and <a href="https://www.linkedin.com/in/zaid-younan/">Linked<i class="fab fa-linkedin"></i></a>.</h4>
                 </div>
 
