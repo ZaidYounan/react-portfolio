@@ -25,7 +25,7 @@ function Projects() {
                     <p>
                         Full Stack App built with ReactJS and a Rails API. 
                     </p>
-                    <a href="https://fight-club-mz.netlify.app/" className="project-link">
+                    <a href="https://fight-club-mz.netlify.app/" className="project-link-text">
                         Learn More <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
@@ -38,7 +38,7 @@ function Projects() {
                     <p>
                         Two-way Marketplace App built in Rails, deployed to Heroku.
                     </p>          
-                    <a href="https://imentorapp.herokuapp.com/" className="project-link">
+                    <a href="https://imentorapp.herokuapp.com/" className="project-link-text">
                         Learn More <i class="fas fa-chevron-right"></i>
                     </a>      
                 </div>
@@ -51,7 +51,7 @@ function Projects() {
                     <p>
                         24 Hour Hackathon - First time using Ruby On Rails
                     </p>
-                    <a href="http://weightlogger-hackathon.herokuapp.com/" className="project-link">
+                    <a href="http://weightlogger-hackathon.herokuapp.com/" className="project-link-text">
                         Learn More <i class="fas fa-chevron-right"></i>
                     </a>                
                 </div>
@@ -64,7 +64,7 @@ function Projects() {
                     <p>
                         Terminal App built in Ruby - Create custom ASCII swords based on user input
                     </p>          
-                    <a href="https://github.com/ZaidYounan/Sword-crafting-app/" className="project-link">
+                    <a href="https://github.com/ZaidYounan/Sword-crafting-app/" className="project-link-text">
                         Learn More <i class="fas fa-chevron-right"></i>
                     </a>      
                 </div>
