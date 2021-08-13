@@ -2,11 +2,10 @@
     height:100%;
     background:black;
     display:flex;
+    justify-content:flex-start;
     align-items:center;
-    justify-content:center;
     color:white;
     overflow:scroll;
-    flex-direction:column;
     background-image: url('../../images/linkedin-photo-render.png');
     background-repeat:no-repeat;
     background-position:bottom right;
@@ -22,7 +21,8 @@
 
 
 .contact-div {
-    margin: 20% 1% 3% 6%;
+    margin: 20% 1% 0% 6%;
+    margin-right:15%;
 }
 
 .contact-text {
@@ -90,16 +90,29 @@ form > textarea {
     margin-bottom:3%;
 }
 
-@media screen and (max-width:550px) {
+
+@media screen and (max-width:960px) {
+    .contact {
+        display:flex;
+        justify-content:center;
+        align-items:flex-start;
+    }
+
     .contact-div {
-        margin-top:25%;
+        margin-top:10%;
     }
 }
 
+
 @media screen and (max-width:400px) {
+    .contact {
+        display:flex;
+        align-items:flex-start;
+    }
+
     .contact-div {
         overflow:scroll;
-        margin-top:15%;
+        margin-top:5%;
     }
     .contact-form {
         width:50%;

@@ -20,3 +20,8 @@ body, html {
   background-color:black;
 }
 
+.misc-links:hover {
+  border-bottom: 3px solid #fff;
+  transition: all 0.2s ease-out;
+}
+

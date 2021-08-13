@@ -14,7 +14,7 @@ function Home() {
                     <p>With time, my interest in coding really blossomed into a true passion. I now spend much of my free time tinkering - constantly learning. </p>
                     <p>Today, I have a solid base of experience with ReactJS, Ruby on Rails and other related technologies.</p>
                     <p>I'm also quite interested in building API's, and I am handy with a SQL database.</p>
-                    <p>Have a role that might interest me? You can  <Link to="/contact">contact me here!</Link></p>
+                    <p>Have a role that might interest me? You can  <Link to="/contact" className="misc-links">contact me here!</Link></p>
                 </div>
                 <div className="extra-home">&nbsp;</div>
             </div>
