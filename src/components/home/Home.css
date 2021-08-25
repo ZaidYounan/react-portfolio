@@ -58,11 +58,11 @@ p > a {
     }
 
     .inner-text {
-        width:35%;
+        width:50%;
     }
 
     p {
-        padding:5%;
+        padding:8%;
     }
 
 }
