@@ -103,13 +103,15 @@
     .nav-menu {
       display: flex;
       flex-direction: column;
+      justify-content:space-evenly;
       width: 100%;
       height: 100vh;
       position: absolute;
-      top: 80px;
+      top: 90px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      font-size:x-large;
     }
   
     .nav-menu.active {
