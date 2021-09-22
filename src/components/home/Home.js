@@ -9,7 +9,7 @@ function Home() {
                 <h3>Hi, I'm Zaid.</h3>
                 <h1>Full Stack Developer.</h1>
                 <div className="inner-text">
-                    <p>In <strong>2020</strong>, unsatisfied with my career in Pharmacy and Customer Service, I made the leap and began pursuing my dream of learning to code.</p>
+                    <p>In <strong>2021</strong>, unsatisfied with my career in Pharmacy and Customer Service, I made the leap and began pursuing my dream of learning to code.</p>
                     <p>The COVID pandemic was a tragedy, but it gave me the time to knuckle down and hone my skills.</p>
                     <p>With time, my interest in coding really blossomed into a true passion. I now spend much of my free time tinkering - constantly learning. </p>
                     <p>Today, I have a solid base of experience with ReactJS, Ruby on Rails and other related technologies.</p>
