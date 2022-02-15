@@ -25,7 +25,7 @@ function Contact() {
                 <div className="contact-text">
                     <h1 className="contact-title">Want to get in touch?</h1>
                     <h4>You can message me directly with the form below, or email me at <a href="mailto:zaid.younan@gmail.com" className="misc-links">zaid.younan@gmail.com</a>.</h4>
-                    <h4>Alternatively you can find me on <a href="https://github.com/ZaidYounan" className="misc-links">Github <i class="fab fa-github"></i></a> and <a href="https://www.linkedin.com/in/zaid-younan/" className="misc-links">Linked<i class="fab fa-linkedin"></i></a>.</h4>
+                    <h4>Alternatively you can find me on <a href="https://github.com/ZaidYounan" className="misc-links">Github <i className="fab fa-github"></i></a> and <a href="https://www.linkedin.com/in/zaid-younan/" className="misc-links">Linked<i className="fab fa-linkedin"></i></a>.</h4>
                 </div>
                 <form className="wpforms-form contact-form" onSubmit={sendEmail}>
                     <label>Subject:</label>

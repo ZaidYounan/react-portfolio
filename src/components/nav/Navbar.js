@@ -33,7 +33,7 @@ function Navbar() {
               zaid younan
             </Link>
               <a href='mailto:zaid.younan@gmail.com' className='email-link'>
-                <i class="fas fa-envelope ic"/>
+                <i className="fas fa-envelope ic"/>
                 zaid.younan@gmail.com
               </a>
               <div className='menu-icon' onClick={handleClick}>
